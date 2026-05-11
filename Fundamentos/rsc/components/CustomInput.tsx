@@ -16,6 +16,7 @@ export default function CustomInput({type,placeholder,value,onChange}:Props){
         placeholder={placeholder}
         value={value}
         onChangeText={onChange}
+        keyboardType={type==='age'?'numeric':'default'}
         />
     </View>
     );
