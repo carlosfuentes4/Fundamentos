@@ -17,6 +17,7 @@ export default function CustomInput({type,placeholder,value,onChange}:Props){
         value={value}
         onChangeText={onChange}
         keyboardType={type==='age'?'numeric':'default'}
+        placeholderTextColor={'gray'}
         />
     </View>
     );
@@ -27,11 +28,13 @@ const styles=StyleSheet.create({
         flexDirection:'row',
         alignItems:'center',
         padding:5,
+        color: 'white'
     },
     input:{
         borderColor:"navy",
         borderWidth:1,
         borderRadius:5,
         width:"80%",
+        color:'white'
     }
 })

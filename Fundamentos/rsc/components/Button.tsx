@@ -15,7 +15,7 @@ export default function Button ({title, onPress}:Props) {
 const styles=StyleSheet.create({
     button:{
         borderColor:'white',
-        backgroundColor:"blue",
+        backgroundColor:"gray",
         borderRadius:6,
         padding:5,
         width:150,
